@@ -80,19 +80,18 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 7%;
 }
-.main-image {
-  width: 20%;
-  height: 20%;
-  border-radius: 100%;
-  margin-left: 5%;
-}
-.mid-section {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-.p-desc {
-  margin-top: 8%;
-  font-size: 2rem;
-  margin-left: 3%;
+
+
+
+
+.footer-link {
+    border-top: 1px solid grey;
+    margin-top: 20%;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
 }
