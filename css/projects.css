@@ -80,17 +80,58 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 7%;
 }
-
-
-
+.mid-section {
+  margin-bottom: 8%;
+}
+.main-image {
+  width: 400px;
+  height: 300px;
+  margin-left: 35%;
+}
+.divider-left {
+  display: flex;
+  justify-content: space-evenly;
+}
+.divider-right {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.projects-image {
+  width: 300px;
+  height: 200px;
+}
+.cards {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects-title {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 5%
+}
+.button {
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  margin-top: 9%;
+}
+.button:hover {
+  color: white;
+  background-color: blue;
+}
 .footer-link {
-    border-top: 1px solid grey;
-    margin-top: 20%;
-    margin-bottom: 3%;
-    padding-top: 3%;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 1.3rem;
-    text-decoration: none;
+  border-top: 1px solid grey;
+  margin-top: 20%;
+  margin-bottom: 3%;
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
 }

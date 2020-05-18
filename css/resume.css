@@ -82,16 +82,14 @@ a:hover {
 }
 
 
-
-
 .footer-link {
-    border-top: 1px solid grey;
-    margin-top: 20%;
-    margin-bottom: 3%;
-    padding-top: 3%;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 1.3rem;
-    text-decoration: none;
+  border-top: 1px solid grey;
+  margin-top: 20%;
+  margin-bottom: 3%;
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
 }
