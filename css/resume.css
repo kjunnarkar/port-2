@@ -48,7 +48,7 @@ table {
 }
 /* ************************** END OF CSS RESET *************************** */
 body {
-  color: blue;
+  color: white;
   background-color: black;
 }
 a:hover {
@@ -67,6 +67,7 @@ a:hover {
   margin-left: 2%;
 }
 .title-class {
+  color: blue;
   font-size: 5rem;
   border-top: 1px solid grey;
   display: flex;
@@ -75,12 +76,43 @@ a:hover {
   padding-bottom: 2%;
 }
 .title-desc {
+  color: blue;
   display: flex;
   justify-content: center;
   font-size: 2rem;
   margin-bottom: 7%;
 }
-
+.titles {
+  margin-bottom: 2%;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.titles-other {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+.desc-div {
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+.desc {
+  margin-left: 15%;
+}
+.details {
+  margin-left: 17%;
+  margin-bottom: 1%;
+  list-style-type: circle;
+}
+.section-desc {
+  margin-left: 15%;
+  margin-bottom: 1%;
+}
 
 .footer-link {
   border-top: 1px solid grey;
