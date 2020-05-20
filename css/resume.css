@@ -106,11 +106,13 @@ a:hover {
 }
 .details {
   margin-left: 17%;
+  margin-right: 17%;
   margin-bottom: 1%;
   list-style-type: circle;
 }
 .section-desc {
   margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 1%;
 }
 

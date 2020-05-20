@@ -4,9 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiran Junnarkar Portfolio</title>
+    <title>Kiran Junnarkar's Portfolio Home</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link rel="icon" href="./images/freezydreamin-SV3V-D1G2q4-unsplash.jpg" type="image/jpg" sizes="16x16">
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
@@ -17,8 +18,8 @@
         <a class="a-items" href="./index.html">Home</a>
         <a class="a-items" href="./resume.html">Resume</a>
         <a class="a-items" href="./projects.html">Projects</a>
-        <a class="a-items" href="https://github.com/kjunnarkar?tab=repositories">GitHub</a>
-        <a class="a-items" href="https://www.linkedin.com/in/kiran-junnarkar-a4ab96194">LinkedIn</a>
+        <a class="a-items" href="https://github.com/kjunnarkar?tab=repositories" target="_blank">GitHub</a>
+        <a class="a-items" href="https://www.linkedin.com/in/kiran-junnarkar-a4ab96194" target="_blank">LinkedIn</a>
     </nav>
     
     <section>
@@ -53,16 +54,24 @@
           <div class="inner-content">
             <img class="logo-images" src="./images/GitHub.png" alt="GitHub Logo">
             <h2 class="card-title">GitHub</h2>
-            <button class="button" onclick="document.location='https://github.com/kjunnarkar'">View</button>
+            <button class="button" onclick="github()">View</button>
           </div>
         </div>
         <div class="card">
           <div class="inner-content">
             <img class="logo-images" src="./images/linkedIn.png" alt="LinkedIn Logo">
             <h2 class="card-title">LinkedIn</h2>
-            <button class="button" onclick="document.location='https://www.linkedin.com/in/kiran-junnarkar-a4ab96194'">View</button>
+            <button class="button" onclick="linkedin()">View</button>
           </div>
         </div>
+        <script>
+          function github() {
+            window.open("https://github.com/kjunnarkar");
+          }
+          function linkedin() {
+            window.open("https://www.linkedin.com/in/kiran-junnarkar-a4ab96194");
+          }
+        </script>
     </section>
     
     <footer>
